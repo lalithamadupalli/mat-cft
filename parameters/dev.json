@@ -1,0 +1,10 @@
+[
+  {
+    "ParameterKey": "BucketName",
+    "ParameterValue": "my-dev-static-site29"
+  },
+  {
+    "ParameterKey": "Environment",
+    "ParameterValue": "devlop"
+  }
+]

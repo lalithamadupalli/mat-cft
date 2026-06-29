@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion : 2010-09-09
+Description: Creates S3 Bucket during execution
+Parameters:
+  Environment:
+    Type: String
+  BucketName:
+    Type: String
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${BucketName}-${Environment}"
